@@ -1,5 +1,5 @@
 import React from 'react'
-import './spotlight_style.css'
+import './product_style.css'
 function Spotlight() {
   return (
     <div >
@@ -72,7 +72,7 @@ function Spotlight() {
                 <div className='products-sort'>
                     <div className='total-products'>98 Products</div>
                     <div className='products-dropdown'>
-                        <button className='drop-btn'>Sort By</button>
+                        <button onClick={()=>{}} className='drop-btn'>Sort By</button>
                         <div className='dropdown-content'>
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
